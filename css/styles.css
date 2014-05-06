@@ -1,6 +1,89 @@
 /* Your Website Styles */
 
+body{
+	font-size:1.75em;
+	background: url("../img/wavecut.png");
+	
+}
 
+p{
+	margin: 15px 30px 0px 30px;
+	font-family: 'Overlock', cursive;
+	
+}
+h1{
+	color: #133921;
+	font-family: 'Cinzel Decorative', cursive;
+
+}
+h3{
+	color: #133921;
+	padding:0px 15px;
+	font-family: 'Cinzel Decorative', cursive;
+
+	}
+
+h5{
+	color:#133921;
+	font-family: 'Cinzel Decorative', cursive;
+	padding:0px 15px;
+	margin-bottom: .5em;
+	display: inline-block;
+}
+h1+h5{
+	padding-bottom: 25px;
+}
+a+p{
+	margin-top: 0px;
+}
+
+a img{
+	height:150px;
+	margin: 0px 15px 0px 15px;
+}
+
+.extrap{
+	padding-top:23px;
+}
+.mhead{
+	text-align: center;
+}
+.bborder{
+	border-bottom:double 4px #C3954B;
+	padding-bottom: 25px;
+}
+
+.bg{
+	background: rgba(195, 149, 75, .2);
+	border-radius: 25px;
+}
+.fleft{
+	float:left;
+}
+.xtrr{
+	padding-right:30px;
+}
+
+.shrink{
+	width:100px;
+	font-size: .5em;
+}
+.center{
+	text-align: center;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.fright{
+	float:right;
+}
+.obj{
+	width:60%;
+	text-align: right;
+}
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
