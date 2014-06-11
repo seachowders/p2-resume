@@ -1,32 +1,40 @@
 /* Your Website Styles */
 
 body{
-	font-size:1.75em;
-	background: url("../img/wavecut.png");
-	
+	font-size:16px;
+
 }
 
+
 p{
-	margin: 15px 30px 0px 30px;
-	font-family: 'Overlock', cursive;
+	
+	font-family: 'Noto Sans', sans-serif;
+	color:#006666;
+	padding-top: 2em;
 	
 }
 h1{
-	color: #133921;
-	font-family: 'Cinzel Decorative', cursive;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	color:#006666;
+	font-size: 6.25em;
+	margin:0 auto;
+	padding-bottom: .3em;
 
 }
 h3{
-	color: #133921;
 	padding:0px 15px;
-	font-family: 'Cinzel Decorative', cursive;
+	font-family: 'PT Sans', sans-serif;
+	color:#006666;
+	font-size: 2.8125em;
 
 	}
 
 h5{
-	color:#133921;
-	font-family: 'Cinzel Decorative', cursive;
-	padding:0px 15px;
+	font-family: 'PT Sans', sans-serif;
+	color:#006666;
+	font-size: 1.25em;
+	padding:0px 1em;
 	margin-bottom: .5em;
 	display: inline-block;
 }
@@ -41,6 +49,25 @@ a img{
 	height:150px;
 	margin: 0px 15px 0px 15px;
 }
+.cont{
+	margin-left: 33%;
+}
+.top{
+	background: #CAF547;
+	opacity: .75;
+	border-radius: 3.125em;
+}
+
+.top img{
+	padding-left: 1em;
+	padding-top: 1em;
+	-webkit-transform:translateX(0em);
+	transition: -webkit-transform 1s;
+}
+
+.top img:hover{
+	-webkit-transform:translateX(1em);
+}
 
 .extrap{
 	padding-top:23px;
@@ -49,7 +76,7 @@ a img{
 	text-align: center;
 }
 .bborder{
-	border-bottom:double 4px #C3954B;
+	border-bottom:double 4px #46c8f5;
 	padding-bottom: 25px;
 }
 
@@ -87,4 +114,28 @@ a img{
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
+}
+
+.btn{
+	color: #006666;
+	background: #A3C2A3;
+	padding: 1em 2em;
+	margin: 50px 0px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: padding .5s, background-color .5s;
+}
+
+.stop{
+	text-decoration: none;
+}
+
+.pullup{
+	padding-top:1em;
+}
+
+.btn:hover {
+	background-color: #CAF547;
+	padding:1em 2.25em;
 }
